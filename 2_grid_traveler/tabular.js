@@ -1,3 +1,4 @@
+
 const gridTravel = (m, n) => {
   const table = Array(m + 1)
     .fill()
@@ -15,6 +16,7 @@ const gridTravel = (m, n) => {
   }
   return table[m][n];
 };
+
 
 console.time();
 console.log(gridTravel(1, 1));
